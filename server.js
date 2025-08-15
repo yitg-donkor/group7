@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 app.use(express.static("public"));
 
-// Database configuration // change this to your MySQL configuration
+// Database configuration // change this to your MySQL configuration for you group 7 db
 const dbConfig = {
   host: "localhost",
   user: "root",
